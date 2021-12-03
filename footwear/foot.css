@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+   background-color:  white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    background-color: rgb(46, 46, 44);
+    padding: 20px;
+    text-align: center;
+    color: rgb(253, 252, 252);
+    filter: drop-shadow( 8PX 6px 4px black);
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+.shirt , .jean ,.jacket , .shoes , .tops , .dresses{
+    border: 5px solid black;
+    margin-top: 20px;
+}
+.head , .head1 , .head2 , .head3 ,.head4 , .head5{
+   text-align: center;
+    color: rgb(175, 12, 240);
+    font-size: 2.5em;
+    text-decoration: double underline;
+    font-weight: bolder;
+    font-variant-caps: all-petite-caps;
+
+}
+
+.card {
+    margin: 20px 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   
+   
+}
+img{
+    height: 350px;
+    margin: 25px;
+}
+img:hover{
+    box-shadow: black 4px 3px 8px;
+    cursor: pointer;
+}
+.card1 , .card2 ,.card3 ,.card4 ,.card5{
+   
+    margin: 20px 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#det{
+    margin-top: -20px;
+    margin-left: 23px;
+    text-align: left;
+}

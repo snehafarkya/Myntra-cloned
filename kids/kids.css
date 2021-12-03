@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    /* background-color: rgb(253, 251, 251); */
+    background-image: linear-gradient(rgba(44, 44, 33, 0.164), rgba(0, 128, 0, 0.432) );
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    text-align: center;
+    margin-top: 20px;
+}
+#navi , #btn{
+    border: none;
+   background: none;
+    color: rgb(241, 15, 46);
+    font-size: 1.5em;
+    margin: 20px;
+text-decoration: none;
+font-weight: bolder;
+padding: 5px;
+
+}
+#navi:hover , #btn:hover{
+    color: rgb(65, 6, 65);
+    background-color: whitesmoke;
+    border: 2px transparent solid;
+    box-shadow: black 3px 3px 8px;
+    padding: 5px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+.shirt , .jean ,.jacket , .shoes{
+    border: 5px solid black;
+    margin-top: 20px;
+}
+.head , .head1 , .head2 , .head3{
+   text-align: center;
+    color: rgb(4, 151, 4);
+    font-size: 2.5em;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-variant-caps: all-petite-caps;
+
+}
+
+.card {
+    margin: 20px 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   
+   
+}
+img{
+    height: 350px;
+    margin: 25px;
+}
+img:hover{
+    box-shadow: black 4px 3px 8px;
+    cursor: pointer;
+}
+.card1 , .card2 ,.card3{
+   
+    margin: 20px 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#det{
+    margin-top: -20px;
+    margin-left: 23px;
+    text-align: left;
+}
+
+#foo{
+    background-color: rgba(194, 220, 245, 0.171);
+    
+display: flex;
+padding-left: 45%;
+text-align: center;
+}
+.foot{ 
+    
+    
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+}
+#flink{
+    text-decoration: none;
+    text-align: center;
+}
+.footicon{
+    margin-left: 100px;
+}
+#icon{
+    font-size: 25px;
+  
+    color: rgb(5, 5, 5);
+    padding: 5px;
+} 
+#icon:hover , #flink:hover{
+    
+    transform: translateX(2px);
+    box-shadow: black 2px 3px 7px;
+}

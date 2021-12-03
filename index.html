@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>SMyntra</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div >
+                <img src="./images/logo.png" alt="" height="60px" style="margin-top: 10px;">
+            </div>
+          
+                <a href="./men/men.html" id="men"  class="dropbtn" onmouseover="menw()" onmouseleave="menn()"> MEN </a>
+                <div id="myDropdown" class="dropdown-content">
+                   <ul>
+                       <h4>Topwear</h4>
+                       <li>T-Shirt</li>
+                       <li>Casual Shirt</li>
+                       <li>Sweatshirt</li>
+                       <li>Blazers</li>
+                       <li>Jacket</li>
+                       <h4>Bottomwear</h4>
+                       <li>Jeans</li>
+                       <li>Casual Trousers</li>
+                       <li>Shorts</li>
+                       <li>Track pants</li>
+                       <li>Joggers</li>
+                   </ul>
+                  </div>
+                  <a href="./women/women.html" id="women"  class="dropbtn1" onmouseover="womenw()" onmouseout="wmenn()"> WOMEN </a>
+                  <div id="myDropdown1" class="dropdown-content1">
+                     <ul>
+                         <h4>Indian wear</h4>
+                         <li>Kurtas</li>
+                         <li>Kurtis , Tunics and tops</li>
+                         <li>Ethnic wear</li>
+                         <li>Leggings</li>
+                         <li>Skirts and plazzos</li>
+                         <h4>Westernwear</h4>
+                         <li>Jeans</li>
+                         <li>Dresses</li>
+                         <li>Shorts</li>
+                         <li>Jumpsuit</li>
+                         <li>Shrugs</li>
+                     </ul>
+                    </div> 
+                    <a href="./kids/kids.html" id="kids"  class="dropbtn2" onmouseover="kimds()" onmouseleave="kim()"> KIDS </a>
+                    <div id="myDropdown2" class="dropdown-content2">
+                       <ul>
+                           <h4>Toys</h4>
+                           <li>Learning and Development</li>
+                           <li>Action toys</li>
+                           <li>Soft toys</li>
+                           <li>Play set</li>
+                           <li>Activity toys</li>
+                           <h4>Footwear</h4>
+                           <li>Flats</li>
+                           <li>Casual shoes</li>
+                           <li>Heels</li>
+                           <li>Sandals</li>
+                           <li>School shoes</li>
+                       </ul>
+                      </div> 
+                      <a href="" id="hl"  class="dropbtn3" onmouseover="HOL()" onmouseleave="holl()" > HOME&LIVING </a>
+                      <div id="myDropdown3" class="dropdown-content3">
+                         <ul>
+                             <h4>Kitchen&Table</h4>
+                             <li>Cookware</li>
+                             <li>Dinnerware</li>
+                             <li>Cups and Mugs</li>
+                             <li>Table covers</li>
+                             <li>Furniture</li>
+                             <h4>Home & Decor</h4>
+                             <li>Clocks</li>
+                             <li>Mirror</li>
+                             <li>Wall Decor</li>
+                             <li>Fountains</li>
+                             <li>Showpieces</li>
+                         </ul>
+                        </div> 
+                        <a href="./beauty/beauty.html" id="bea"  class="dropbtn4" onmouseover="beau()" > BEAUTY </a>
+                        <div id="myDropdown4" class="dropdown-content4">
+                           <ul>
+                               <h4>Haircare</h4>
+                               <li>Shampoo</li>
+                               <li>Hair Oil</li>
+                               <li>Hair Color</li>
+                               <li>Hair Serum</li>
+                               <li>Hair Gel</li>
+                               <h4>Makeup</h4>
+                               <li>Lipstick</li>
+                               <li>Lip Gloss</li>
+                               <li>Kajal</li>
+                               <li>Eyelinar</li>
+                               <li>Foundation</li>
+                           </ul>
+                          </div>  
+                 
+                <div class="search">
+                    <i id = "mag" class="fa-solid fa-magnifying-glass"></i>
+                    <input class = "se" type="text" name="search" placeholder="Search for products ,brands and more">
+                </div> 
+                <div class="profile">
+                    <span class="logo" ><i class="fas fa-user-alt"></i></span>
+                    <span class="name" id="pro" onclick="profile()">Profile</span>
+                        <div id="prof" class="dropdown-content5">
+                          Welcome!To access account and manage orders
+                          <button class="login"><a href="./form/Form.html">Login/Sign up</a></button>
+                          </div>  
+                    
+                  <!-- <p class="prof">
+                      Welcome! To access acount and manage orders 
+                  </p>
+                   <button><a href="../coding/login or registration/login.html">Login</a></button>  -->
+                </div>
+                <div class="profile">
+                    <span class="logo"><i class="far fa-heart"></i></span>
+                    <span class="name">Whishlist</span>
+                </div>
+                <div class="profile">
+                    <span class="logo"><i class="fas fa-shopping-bag"></i></span>
+                    <span class="name" style="left: -1px;">Bag</span>
+                </div> 
+                <!-- <button><a href="index.html"></a></button> -->
+        </nav>
+    </header>
+<h2>Free Shipping For <u>INSIDERS!!</u>   <i class="fas fa-truck"></i></h2>
+<a href="./men/men.html">  <div class="main">
+      <!-- Image slider -->
+    
+   </div></a>
+   <div  class="scroler">
+       <img src="./images/axis.png" alt=""> 
+       <img src="./images/citi.png" alt=""> 
+       <p id="para">10% Instant Discount*</p>
+   </div>
+<!--    
+   <div  class="scroler1">
+       <img src="./images/paytm.png" alt=""> 
+       <p id="par"><b> Falt Rs 200 Cashback*</b> On Wallet Transactions</p>
+   </div> -->
+  
+  <div class="onecard">
+       <p class="head">Crackling Deals </p>
+       <p class="head1">Crackling Deals </p>
+      <div class="card_1">
+         <img id = "subcard_img" src="./images/h&m.jpeg" alt="" height="250px" width="400px">
+          <p id="text">H&M</p>
+          <div id="text1">40-60% +</div>
+          <div id="text2">Extra Rs300 Off</div>
+      </div>
+      <div class="card_2">
+         <img id = "subcard_img" src="./images/dress.png" alt="" height="250px" width="400px">
+         <p id="text">DRESSBERRY</p>
+         <div id="text1">Under Rs499 +</div>
+         <div id="text2">Extra 10% Off</div>
+      </div>
+      <div class="card_3">
+         <img id = "subcard_img" src="./images/only.jpeg" alt="" height="250px" width="400px">
+         <p id="text">ONLY</p>
+         <div id="text1">Min. 60% +</div>
+         <div id="text2">Extra 10% Off</div>
+      </div>
+  </div>
+   <div class="twocard"><a href="./footwear/foot.html">
+    <p class="headd">Best of Footwear
+    </p>
+    <p class="headd1">Best of Footwear
+    </p>
+       <div class="tcard1">
+        <img src="./images/foot1.webp" alt="">
+    </div>
+       <div class="tcard2">
+        <img src="./images/foot2.webp" alt="">
+    </div>
+       <div class="tcard3">
+        <img src="./images/foot3.webp" alt="">
+    </div>
+</a>
+   </div>
+   <div class="threecard"><a href="./beauty/beauty.html">
+    <p class="headdd">Best of Beauty and Personal Care</p>
+    <p class="headdd1"> Best of Beauty and Personal Care </p>
+       <div class="bcard1">
+        <img src="./images/bea1.webp" alt="">
+    </div>
+       <div class="bcard2">
+        <img src="./images/bea2.webp" alt="">
+    </div>
+       <div class="bcard3">
+        <img src="./images/bea3.webp" alt="">
+    </div>
+</a>
+   </div>
+
+<hr color="black" width="100%" style="top: 428%; position: absolute;">
+   <footer id="foo">
+    <p class="sspan"> All Rights are reserved under the act of    Copyright &copy;.</p>
+<div class="foot">
+    <p> <a class="hover" href="./index.html">Home</a> </p>
+    <p><a class="hover" href="./men/men.html"> Men</a></p>
+    <p> <a class="hover" href="./women/women.html"> Women</a></p>
+    <p><a class="hover" href="./kids/kids.html"> Kids</a></p>
+ 
+    </div>
+<div class="footicon">
+    <p><a href="https://instagram.com/sneha__farkya?utm_medium=copy_link"><i id="icon" class="fab fa-instagram"></i></a></p>
+    <p><a href="http://www.linkedin.com/in/sneha-farkya-288773217" target="blank"><i id="icon" class="fab fa-linkedin"></i></a></p>
+    <p><a href="https://github.com/snehafarkya" target="blank"><i id="icon" class="fab fa-github"></i></a></p>
+    <p><a href="mailto:snhafarkya@gmail.com" target="blank"> <i id="icon" class="far fa-envelope"></i> </a></p>
+  
+    </div>
+   </footer>
+
+
+
+</body>
+<script src="script.js"></script>
+</html>

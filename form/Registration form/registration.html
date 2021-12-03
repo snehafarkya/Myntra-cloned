@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <container class="cony">  
+        
+        <form name="REGFORM" action="login" method="GET"> 
+            <div class="div"> 
+                <h1>SIGNUP FORM</h1>
+        <div class="usern">
+         <input type="text" placeholder="Write your name" name="Name" id = "un" required>
+        </div>  
+        <div class="email">
+         <input type="email" placeholder="Email id" id = "e" name="Email" required>
+        </div>  
+        <div class="con">
+         <input type="number" placeholder="Contact number" name="Mobile" id = "c" required>
+        </div>  
+        <div class="password">
+            <input type="password" placeholder="password" name="Pass" id = "p"  required>
+        </div> 
+        <div class="repassword">
+            <input type="password" placeholder="Retype" name="Repass" id = "re" required>
+        </div> 
+        <div class="login">
+            <input type="submit" value="Register" name="submit" id = "b" >
+        </div>  
+        <h3>Already a user? <a href="../Form.html" >Login </a></h3>
+    </div>
+    </form>
+
+    </container>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxR9Pn4W1Le-mNuxgqxzcGlGp1RO48W1Z99Q5D5qHamLS57IP_Ki5aTOhvhkmcChU7L/exec'
+        const form = document.forms['REGFORM']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>

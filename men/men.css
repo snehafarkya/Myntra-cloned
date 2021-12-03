@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    /* background-color: rgb(253, 251, 251); */
+    background-image: linear-gradient(    #FFDEE9, #B5FFFC);
+    font-family: 'Roboto', sans-serif;
+
+}
+nav{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#navi{
+   
+    color: rgb(2, 30, 66);
+    font-size: 1.5em;
+    margin: 20px;
+text-decoration: none;
+font-weight: bolder;
+padding: 5px;
+
+}
+#navi:hover{
+    color: rgb(65, 6, 65);
+    background-color: whitesmoke;
+    border: 2px transparent solid;
+    box-shadow: black 3px 3px 8px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.heas{
+    display: flex;
+    background-color: rgb(46, 46, 44);
+    padding: 15px;
+    filter: drop-shadow( 8PX 6px 4px black);
+    text-align: center;
+    color: rgb(255, 253, 253);
+    justify-content: space-between;
+}
+h1{
+    /* text-align: left; */
+   
+    font-size: 2em;
+   
+    font-family: 'Roboto', sans-serif;
+}
+.cart {
+    /* text-align: right; */
+    margin-top: 22px;
+   justify-content: space-around;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.cart a{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    font-weight: bold;
+
+}
+.cart a:hover , h1:hover{
+    color: rgb(240, 12, 152);
+    cursor: pointer;
+}
+.shirt , .jean ,.jacket , .shoes{
+    border: 5px solid black;
+    margin-top: 20px;
+}
+.head , .head1 , .head2 , .head3{
+   text-align: center;
+    color: rgb(240, 12, 152);
+    font-size: 2.5em;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-variant-caps: all-petite-caps;
+
+}
+
+.card {
+    margin: 20px 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   
+   /* display: flex;
+   flex-wrap: wrap; */
+}
+img{
+    
+    height: 350px;
+    margin: 25px;
+}
+img:hover{
+    box-shadow: black 4px 3px 8px;
+    cursor: pointer;
+}
+.card1 , .card2 ,.card3{
+   
+    margin: 20px 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#det{
+    margin-top: -20px;
+    margin-left: 23px;
+    text-align: left;
+}
+
+#foo{
+    background-color: rgba(194, 220, 245, 0.171);
+    
+display: flex;
+padding-left: 45%;
+text-align: center;
+}
+.foot{ 
+    
+    
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+}
+#flink{
+    text-decoration: none;
+    text-align: center;
+}
+.footicon{
+    margin-left: 100px;
+}
+#icon{
+    font-size: 25px;
+  
+    color: rgb(5, 5, 5);
+    padding: 5px;
+} 
+#icon:hover , #flink:hover{
+    
+    transform: translateX(2px);
+    box-shadow: black 2px 3px 7px;
+}
+.add-cart{
+ position: absolute;
+ width: 16.7%;
+ background-color: darkgrey;
+ transition: 0.3s all ease-in-out;
+ opacity: 0;
+ cursor: pointer;
+ color: black;
+ text-align: center;
+ margin-top: -90px;
+ margin-left: 25px;
+ text-decoration: none;
+}
+/* .c11{
+    overflow: hidden;
+    margin: 20px;
+} */
+
+.c11:hover .cart1, .c11:hover .cart2 ,.c11:hover .cart3 ,.c11:hover .cart4 {
+  
+    text-decoration: none;
+    opacity: 1;
+    padding: 5px;
+}
+.c2:hover .cart1, .c2:hover .cart2 ,.c2:hover .cart3 ,.c2:hover .cart4 {
+    bottom: -1000px;
+    text-decoration: none;
+    opacity: 1;
+    padding: 5px;
+}
+.c3:hover .cart1, .c3:hover .cart2 ,.c3:hover .cart3 ,.c3:hover .cart4 {
+    bottom: -2055px;
+    text-decoration: none;
+    opacity: 1;
+    padding: 5px;
+}
+.c4:hover .cart1, .c4:hover .cart2 ,.c4:hover .cart3 ,.c4:hover .cart4 {
+    bottom: -2673px;
+    text-decoration: none;
+    opacity: 1;
+    padding: 5px;
+}
+.c11:hover .cart5 ,.c11:hover .cart6 ,.c11:hover .cart7 ,.c11:hover .cart8 {
+    bottom: -390px;
+    text-decoration: none;
+    opacity: 1;
+    padding: 5px;
+}
+.c2:hover .cart5 ,.c2:hover .cart6 ,.c2:hover .cart7 ,.c2:hover .cart8 {
+    bottom: -1440px;
+    text-decoration: none;
+    opacity: 1;
+    padding: 5px;
+}
+.c4:hover .cart5 ,.c4:hover .cart6 ,.c4:hover .cart7 ,.c4:hover .cart8 {
+    bottom: -3110px;
+    text-decoration: none;
+    opacity: 1;
+    padding: 5px;
+}
+
+/* cart page */
+.pro-container{
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 80px auto;
+ 
+
+}
+.pro-container ion-icon{
+    font-size: 25px;
+    color: blue;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.pro-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgrey;
+    margin: 0px auto;
+}
+.pro-title{
+ width: 45%;
+}
+.price{
+    margin-left: 20px ;
+    width: 15%;
+    display: flex;
+    /* border-bottom: 4px solid lightgrey; */
+    align-items: center;
+}
+.quantity{
+    width: 30%;
+    /* border-bottom: 4px solid lightgrey; */
+    display: flex;
+    align-items: center;
+}
+.total{
+    width: 10%;
+    display: flex;
+    /* border-bottom: 1px solid lightgrey; */
+    align-items: center;
+}
+.products
+{
+    width: 45%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+}
+.products img{
+    height: 80px;
+    
+}
